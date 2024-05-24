@@ -3,7 +3,8 @@ I was told i should write this for future reference. I made the mistake of tryin
 
 # commands and their properties
 
---------------------------------------------------------------------------------------------------------------------------------------
+| command name  | name | desc | details |
+-----|------------------|-------------------------------------------------------------|--------------------------------------------------|
 | cd | change directory | it changes the directory it is looking at to the stated one | sample usage: `cd Downloads\Photos` (goes to Downloads\Photos) and `cd ..` (goes backwards in the file tree) |
 | mkdir | make directory | it creates a directory using flags can help you in other ways | read more here: `https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mkdir` |
 | rmdir | removes directory | it deletes a directory using flags can help you in other ways | read more here: `https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/rmdir` |
