@@ -13,6 +13,7 @@ I was told i should write this for future reference. I made the mistake of tryin
 # unix (OSx, linux, bsd and more...)
 Note that this was tested in a bash environemnt, so you might have to check if you are using bash, zsh or whatever.
 | command name | name | desc | details |
+-----|------------------|-------------------------------------------------------------|--------------------------------------------------|
 | `~/` | home | shorthand | `cd ~/` goes to the home directory <br> mkdir `~/potato` creates a folder called potato in the home folder |
 | cd | change directory | It changes the current working directory to the one that is stated | same as the one above (however you need to use `/` instead of `\`). |
 | mkdir | make directory | it creates a directory using flags can help you in other ways | `mkdir documents` creates a file called documents <br> `mkdir -p ~/documents/school` creates a folder called school in documents <br> `mkdir banana potato` creates folders banana and potato |
