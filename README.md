@@ -1,6 +1,5 @@
 # command-prompt-basics
 I was told i should write this for future reference. I made the mistake of trying to use certain unix commands (im a bash linux and bsd user) in command prompt. Apparently `touch` is not a thing :(. Also wth why backslashes 😢.
-
 # commands and their properties
 
 | command name  | name | desc | details |
@@ -11,7 +10,8 @@ I was told i should write this for future reference. I made the mistake of tryin
 | dir | directory | lists all directories in a folder | `dir` command. The `dir` (directory) command lists directory contents, including files and subdirectories. |
 
 # unix (OSx, linux, bsd and more...)
-Note that this was tested in a bash environemnt, so you might have to check if you are using bash, zsh or whatever.
+Note that this was tested in a bash environemnt, so you might have to check if you are using bash, zsh or whatever.          
+I love zsh, better floating point support and more, but it breaks POSIX compliance. Which sometimes gets me.
 | command name | name | desc | details |
 -----|------------------|-------------------------------------------------------------|--------------------------------------------------|
 | `~/` | home | shorthand | `cd ~/` goes to the home directory <br> mkdir `~/potato` creates a folder called potato in the home folder |
