@@ -9,3 +9,13 @@ I was told i should write this for future reference. I made the mistake of tryin
 | mkdir | make directory | it creates a directory using flags can help you in other ways | read more [here](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mkdir) |
 | rmdir | removes directory | it deletes a directory using flags can help you in other ways | read more [here](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/rmdir) |
 | dir | directory | lists all directories in a folder | `dir` command. The `dir` (directory) command lists directory contents, including files and subdirectories. |
+
+# unix (OSx, linux, bsd and more...)
+Note that this was tested in a bash environemnt, so you might have to check if you are using bash, zsh or whatever.
+| command name | name | desc | details |
+| `~/` | home | shorthand | `cd ~/` goes to the home directory <br> mkdir `~/potato` creates a folder called potato in the home folder |
+| cd | change directory | It changes the current working directory to the one that is stated | same as the one above (however you need to use `/` instead of `\`). |
+| mkdir | make directory | it creates a directory using flags can help you in other ways | `mkdir documents` creates a file called documents <br> `mkdir -p ~/documents/school` creates a folder called school in documents <br> `mkdir banana potato` creates folders banana and potato |
+| rmdir | removes directory | it deletes a directory using flags can help you in other ways, if there are things in the folder it will throw a warning, use rm for that instead | `rmdir documents` removes folders <br> [read more here](https://www.ibm.com/docs/tr/aix/7.2?topic=r-rmdir-command) |
+| touch | creates a file | creates a file | `touch grass.txt` creates a file called grass |
+| rm | remove | used to remove files and folders | `rm -rf potato` removes folder potato and all contents in it <br> `rm potato.txt` deletes a file potato.txt |
